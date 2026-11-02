@@ -35,8 +35,6 @@ class DatabaseService {
             ngayChi TEXT NOT NULL
           )
         ''');
-
-        // Dữ liệu mẫu khởi tạo
         await db.insert('chis', {
           'tenKhoanChi': 'Ăn uống',
           'soTien': 150000.0,
