@@ -17,6 +17,6 @@ class SharedPreferencesService {
 
   Future<bool> isVNDMode() async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.getBool(_kVNDModeKey) ?? true; // Mặc định true (VNĐ)
+    return prefs.getBool(_kVNDModeKey) ?? true;
   }
 }
